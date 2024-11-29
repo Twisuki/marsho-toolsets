@@ -3,7 +3,14 @@
 		"type" : "function",
 		"function" : {
 			"name" : "marshoai-megakits__twisuki",
-			"description" : "介绍插件作者Twisuki"
+			"description" : "介绍插件作者Twisuki(苏阳)"
+		}
+	},
+	{
+		"type" : "function",
+		"function" : {
+			"name" : "marshoai-megakits__megakits",
+			"description" : "介绍本插件MegaKits"
 		}
 	},
 	{
@@ -86,6 +93,25 @@
 					"msg" : {
 						"type" : "string",
 						"description" : "录入的字符串(.- )"
+					}
+				},
+				"require" : [
+					"msg"
+				]
+			}
+		}
+	},
+	{
+		"type" : "function",
+		"function" : {
+			"name" : "marshoai-megakits__latex",
+			"description" : "在线Latex渲染, 输入Latex公式, 返回一个链接(png图片)",
+			"parameters" : {
+				"type" : "object",
+				"properties" : {
+					"msg" : {
+						"type" : "string",
+						"description" : "录入的Latex公式(字符串)"
 					}
 				},
 				"require" : [
