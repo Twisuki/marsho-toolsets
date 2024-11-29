@@ -2,6 +2,13 @@
 	{
 		"type" : "function",
 		"function" : {
+			"name" : "marshoai-megakits__twisuki",
+			"description" : "介绍插件作者Twisuki"
+		}
+	},
+	{
+		"type" : "function",
+		"function" : {
 			"name" : "marshoai-megakits__random_turntable",
 			"description" : "随机转盘, 玩家输入上下限(均为整数), 返回一个随机整数",
 			"parameters" : {
