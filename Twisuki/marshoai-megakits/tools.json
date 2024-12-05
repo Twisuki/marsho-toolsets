@@ -104,17 +104,36 @@
 	{
 		"type" : "function",
 		"function" : {
-			"name" : "marshoai-megakits__latex",
-			"description" : "在线Latex渲染, 输入Latex公式, 返回一个链接(png图片)",
+			"name" : "marshoai-megakits__nya_encode",
+			"description" : "转换为猫猫语",
 			"parameters" : {
 				"type" : "object",
 				"properties" : {
 					"msg" : {
 						"type" : "string",
-						"description" : "录入的Latex公式(字符串)"
+						"description" : "待转换的字符串"
 					}
 				},
 				"require" : [
+					"msg"
+				]
+			}
+		}
+	},
+	{
+		"type": "function",
+		"function": {
+			"name": "marshoai-megakits__nya_decode",
+			"description": "翻译猫语",
+			"parameters": {
+				"type": "object",
+				"properties": {
+					"msg": {
+						"type": "string",
+						"description": "录入的猫语"
+					}
+				},
+				"require": [
 					"msg"
 				]
 			}
